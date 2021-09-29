@@ -1,5 +1,6 @@
 {
   "name": "react-simple-observable-store",
+  "public": "true",
   "version": "1.0.0",
   "dependencies": {
     "react": "^17.0.2",
