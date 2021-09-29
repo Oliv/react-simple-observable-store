@@ -1,0 +1,53 @@
+{
+  "name": "react-simple-observable-store",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "babel-jest": "^27.2.3",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^27.2.3",
+    "react-test-renderer": "^17.0.2",
+    "regenerator-runtime": "^0.13.9",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack",
+    "build": "webpack build --no-watch",
+    "test": "jest --watchAll --env=jsdom",
+    "coverage": "jest --coverage --env=jsdom --watchAll",
+    "prepublish": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oliv/react-simple-observable-store.git"
+  },
+  "keywords": [
+    "react",
+    "store",
+    "observable",
+    "hooks"
+  ],
+  "author": "Olivier Gasc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oliv/react-simple-observable-store/issues"
+  },
+  "homepage": "https://github.com/Oliv/react-simple-observable-store#readme"
+}
